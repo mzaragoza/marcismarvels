@@ -1,0 +1,1235 @@
+<!doctype html>
+<!--[if IE 6 ]>
+<html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>
+<html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>
+<html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us" ><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+
+    <title>Delimondo Cupcakeheaven - Premium Responsive HTML5/CSS Template</title>
+
+    <meta name="description" content="Thank you for purchasing this theme. If you have any questions that are beyond the scope of this help file, please feel free to email via the user page contact form on this page. Thanks so much!">
+    <meta name="author" content="createIT">
+    <meta name="generator" content="Documenter v1.6 http://rxa.li/documenter">
+
+
+    <link type="text/css" rel="stylesheet" href="syntaxh/css/shCoreDefault.css">
+    <link rel="stylesheet" href="css/documenter_style.css" media="all">
+
+
+    <script src="js/jquery.1.6.4.js"></script>
+
+    <script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+    <script src="js/jquery.easing.js"></script>
+
+
+    <script>document.createElement('section');
+    var duration = 500, easing = 'swing';</script>
+    <script src="js/script.js"></script>
+
+
+    <style>
+        html{ background-color: #FFFFFF; color: #383838; }
+        ::-moz-selection{ background: #444444; color: #DDDDDD; }
+        ::selection{ background: #444444; color: #DDDDDD; }
+        #documenter_sidebar #documenter_logo{ background-image: url(); }
+        a{ color: #0000FF; }
+        hr{ border-top: 1px solid #EBEBEB; border-bottom: 1px solid #FFFFFF; }
+        #documenter_sidebar, #documenter_sidebar ol a{ background-color: #DDDDDD; color: #222222; }
+        #documenter_sidebar ol a{ -webkit-text-shadow: 1px 1px 0px #EEEEEE; -moz-text-shadow: 1px 1px 0px #EEEEEE; text-shadow: 1px 1px 0px #EEEEEE; }
+        #documenter_sidebar ol{ border-top: 1px solid #AAAAAA; }
+        #documenter_sidebar ol a{ border-top: 1px solid #EEEEEE; border-bottom: 1px solid #AAAAAA; color: #444444; }
+        #documenter_sidebar ol a:hover{ background: #444444; color: #DDDDDD; border-top: 1px solid #444444; }
+        #documenter_sidebar ol a.current{ background: #444444; color: #DDDDDD; border-top: 1px solid #444444; }
+        #documenter_copyright{ display: block !important; visibility: visible !important; }
+    </style>
+
+</head>
+<body>
+<div id="documenter_sidebar">
+    <a href="#documenter_cover" id="documenter_logo"></a>
+    <ol id="documenter_nav">
+        <li><a class="current" href="#documenter_cover">Start</a></li>
+        <li><a href="#html_structure">HTML Structure</a></li>
+        <li><a href="#css_files_structure">CSS Files & Structure</a></li>
+        <li><a href="#java_script">Java Script</a></li>
+        <li><a href="#typography">Typography</a></li>
+        <li><a href="#psd_files">PSD Files</a></li>
+         <li><a href="#contact_form">Contact/Table Form</a></li>
+        <li><a href="#sources_credits">Sources & Credits</a></li>
+        <li><a href="#how_to">How To</a></li>
+
+    </ol>
+    <div id="documenter_copyright">createIT 2012<br>
+        made with the <a href="http://rxa.li/documenter">Documenter v1.6</a>
+    </div>
+</div>
+<div id="documenter_content">
+<section id="documenter_cover"><h1>Delimondo Cupcakeheaven</h1>
+
+    <h2>Premium Responsive HTML/CSS Template</h2>
+    <hr>
+    <ul>
+        <li>Created: 10/30/2012</li>
+        <li>latest Update: 10/30/2012</li>
+        <li>By: createIT</li>
+        <li><a href="http://themeforest.net/user/createit-pl">http://themeforest.net/user/createit-pl</a></li>
+        <li>Email: <a href="mailto:support@createit.pl">support@createit.pl</a>
+        </li>
+    </ul>
+    <p>Thank you for purchasing this theme. If you have any questions that are beyond the scope of this help file, please feel free to email via the user page contact form on this page.
+        <br>Thanks so much!</p>
+
+
+</section>
+<section id="html_structure">
+
+
+<h3>HTML Structure</h3>
+<hr class="notop">
+<p>
+    This theme is built upon bootstrap framework and is fully responsive. It adapts to window resolution and looks good on all devices including ipad and iphone.<br>
+    See for yourself (resize your browser and refresh page).</p>
+
+<p>
+    We put a big emphasis to make sure that this theme is smoothly running on all common webinterfaces these days. We do our best to always improve the quality and
+    usability of our work. If you run into any kind of trouble or questions, suggestions or ideas, please let us know.&nbsp;</p>
+
+<p class="docs">Documentation: <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap homepage</a></p>
+
+
+<div class="subChapter">
+<hr class="half">
+<h5>General structure</h5>
+
+<p>Below you find sample HTML structure with description.</p>
+
+        <pre class="brush: html">
+
+&lt;!DOCTYPE html>
+&lt;html>
+&lt;head>
+&lt;/head>
+&lt;body>
+&lt;!-- Box with "Book a table" form
+ It show after click at "Book a table" link,
+ but only on resolution lower than 959px and "FullWidth" page.
+ Second form - for desktops is in div with ".box9" class. -->
+&lt;div class="ipad-box9">
+    (..)
+&lt;/div>
+&lt;!-- box9 -->
+&lt;!-- "Book a table" link - it shows at resolution lower than 959px -->
+&lt;div class="topBar">
+    &lt;div class="backg">&lt;/div>
+    &lt;a href="#" class="bookTable">Book a table&lt;/a>&lt;/div>
+
+&lt;div id="header">
+    &lt;div class="container">
+
+        &lt;div class="logoContainer">
+            &lt;a href="1_home.html">
+                &lt;!-- logo image -->
+                &lt;img src="img/logo.png" alt="">&lt;/a>
+        &lt;/div>
+
+        &lt;!-- social icons -->
+        &lt;div class="topData">
+            &lt;ul class="social">
+                &lt;li>&lt;a href="#" class="fb">Facebook&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="#" class="twit">Twitter&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="#" class="rss">Rss&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="#" class="mail">E-mail&lt;/a>&lt;/li>
+            &lt;/ul>
+           &lt;!-- company address -->
+            &lt;address>
+                123 Eastern 12th ST New York, NY +49 1234 56789-0
+            &lt;/address>
+
+        &lt;/div>
+        &lt;div class="clearfix">&lt;/div>
+    &lt;/div>
+    &lt;!-- container end -->
+&lt;/div>
+&lt;!-- header end -->
+
+
+&lt;div id="menuContainer">
+    &lt;div class="container">
+        &lt;!-- main menu -->
+        &lt;ul class="mainMenu">
+            (..)
+        &lt;/ul>
+
+        &lt;div class="login">
+            &lt;!-- "Book a table" link on desktop -->
+            &lt;a href="#" class="bookTable" id="bkTable">Book a table&lt;/a>
+            &lt;!-- right menu with login and password links -->
+            &lt;ul>
+                &lt;li>&lt;a href="#">Login&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="#">Password&lt;/a>&lt;/li>
+            &lt;/ul>
+        &lt;/div>
+        &lt;div class="clearfix">&lt;/div>
+    &lt;/div>
+&lt;/div>
+
+
+&lt;div id="mainContent">
+    &lt;div class="container">
+        &lt;!-- left column with main content -->
+        &lt;div class="column1 pull-left">
+            (..)
+        &lt;/div>
+        &lt;!-- right sidebar -->
+        &lt;div class="column2 pull-right">
+            &lt;!-- "Book a table" form.
+                We show it after clicking "Book a table" link,
+                but only for resolution greater than 959px
+                (for lower resolution check div with ".ipad-box9" -->
+
+            &lt;div class="box9">
+                (..)
+            &lt;/div>
+            &lt;!-- box9 -->
+
+        &lt;/div>
+    &lt;/div>
+&lt;/div>
+
+&lt;!-- footer content on page bottom -->
+&lt;div id="footer">
+    &lt;!-- in Twitter Bootstrap container class set page width -->
+    &lt;div class="container">
+
+    &lt;/div>
+&lt;/div>
+&lt;!-- footer -->
+
+&lt;!-- including js libraries -->
+&lt;script src="js/jquery.js">&lt;/script>
+(..)
+
+&lt;/body>
+&lt;/html>
+        </pre>
+
+
+<hr class="half">
+<h5>Main Menu</h5>
+
+<p>Below you find menu structure. When add item to menu you have 2 options: <br>
+    1. Add simple link (for example "About" link)<br>
+    2. Add link with subMenu (for example "Menucard" section). Submenu will show on click.<br><br>
+    Additional text placed in <b>&lt;span class="addTxt">&lt;/span></b> is showed on resolution lower than 959px.<br>
+</p>
+
+               <pre class="brush: html">
+
+&lt;div id="menuContainer">
+  &lt;div class="container">
+      &lt;ul class="mainMenu">
+          &lt;!-- section with submenu -->
+          &lt;li class="subMenu">&lt;a href="#">Home&lt;/a>
+              &lt;ul>
+                  &lt;li>&lt;a href="1_home.html">2 column&lt;/a>&lt;/li>
+                  &lt;li>&lt;a href="2_home2.html">Fullwidth&lt;/a>&lt;/li>
+              &lt;/ul>
+          &lt;/li>
+          &lt;!-- link to page (without submenu) -->
+          &lt;li>&lt;a href="3_about.html">About&lt;span class="addTxt">Were real foodies&lt;/span>&lt;/a>&lt;/li>
+          &lt;li class="subMenu">
+              &lt;a href="#">Menucard&lt;span class="addTxt">Our real tasty food&lt;/span>&lt;/a>
+              &lt;ul>
+                  &lt;li>&lt;a href="4_menucard1.html">2 column&lt;/a>&lt;/li>
+                  &lt;li>&lt;a href="5_menucard2.html">Fullwidth&lt;/a>&lt;/li>
+                  &lt;li>&lt;a href="4_menucard1.html#&amp;panel1-1">Starters&lt;/a>&lt;/li>
+                  &lt;li>&lt;a href="4_menucard1.html#&amp;panel1-2">Main dish&lt;/a>&lt;/li>
+                  &lt;li>&lt;a href="4_menucard1.html#&amp;panel1-3">Dessert&lt;/a>&lt;/li>
+                  &lt;li>&lt;a href="4_menucard1.html#&amp;panel1-4">Drinks&lt;/a>&lt;/li>
+              &lt;/ul>
+          &lt;/li>
+          &lt;li>&lt;a href="10_gallery.html">Gallery&lt;span class="addTxt">Look, were so proud&lt;/span>&lt;/a>&lt;/li>
+          &lt;li class="subMenu">&lt;a href="#">Blog&lt;span class="addTxt">Always be informed&lt;/span>&lt;/a>
+              &lt;ul>
+                  &lt;li>&lt;a href="7_blog.html">Blog&lt;/a>&lt;/li>
+                  &lt;li>&lt;a href="8_single.html">Single&lt;/a>&lt;/li>
+              &lt;/ul>
+          &lt;/li>
+          &lt;li>&lt;a href="6_contact.html">Contact&lt;span class="addTxt">Get & stay in contact&lt;/span>&lt;/a>&lt;/li>
+      &lt;/ul>
+  &lt;/div>
+&lt;/div>
+
+        </pre>
+
+
+<hr class="half">
+<h5>Example slider (Nivo Slider)</h5>
+
+       <pre class="brush: html">
+       &lt;div class="slider1Back">
+           &lt;div class="slider1">
+               &lt;img src="img/slider1-frame.png" alt="" class="frame1">
+               &lt;div class="sliderContent">
+
+                   &lt;div class="slider-wrapper">
+                       &lt;div id="slider1Nivo" class="nivoSlider">
+                           &lt;div class="slider1Frame">
+                               &lt;img src="img/content/slider_small_01.jpg" alt="">
+                           &lt;/div>
+                           &lt;div class="slider1Frame">
+                               &lt;img src="img/content/slider_small_02.jpg" alt="">
+                           &lt;/div>
+                           &lt;div class="slider1Frame">
+                               &lt;img src="img/content/slider_small_03.jpg" alt="">
+                           &lt;/div>
+                           &lt;div class="slider1Frame">
+                               &lt;img src="img/content/slider_small_04.jpg" alt="">
+                           &lt;/div>
+                       &lt;/div>
+                   &lt;/div>
+               &lt;/div>
+           &lt;/div>
+           &lt;!-- slider1 -->
+       &lt;/div>
+       </pre>
+
+<p><strong>and include js:</strong></p>
+
+        <pre class="brush: js">
+
+        // slider1 init
+        $('#slider1Nivo').nivoSlider({
+            effect:'random',
+            pauseTime:8000,
+            captionEasing:'linear',
+            slices: 15, // For slice animations
+            boxCols: 8, // For box animations
+            boxRows: 4, // For box animations
+            animSpeed: 500, // Slide transition speed
+            startSlide: 0, // Set starting Slide (0 index)
+            directionNav: true, // Next & Prev navigation
+            controlNav: true, // 1,2,3... navigation
+            controlNavThumbs: false, // Use thumbnails for Control Nav
+            pauseOnHover: true, // Stop animation while hovering
+            manualAdvance: false, // Force manual transitions
+            prevText: 'Prev', // Prev directionNav text
+            nextText: 'Next', // Next directionNav text
+            randomStart: false, // Start on a random slide
+        });
+        </pre>
+
+</div>
+
+
+</section>
+<section id="css_files_structure">
+    <h3>CSS Files & Structure</h3>
+    <hr class="notop">
+    <p>
+        We've included 3 css files: bootstrap.min.css, bootstrap-responsive.min.css and style.css. <br>
+        The first and the second file is just a bootstrap framework, responsive flavour which do all the resets and generic classes. In this last file we overwrite default styles and add our own. Keep in mind that you
+        shouldn't edit bootstrap*.css files, to make it possible for you to update it in the future when new bootstrap release is available.<br>
+        You may freely <strong>edit style.css file</strong> add new rules there<br>
+        Additional information: we've also included css files for javascript libraries (when needed): anythingslider.css, lightbox.css and nivo-slider.css.
+    </p>
+
+    <div class="subChapter">
+
+        <hr class="half">
+        <h5>CSS Sections with example code</h5>
+
+   <pre class="brush: css">
+   /* include font face definitions */
+   @font-face {
+       font-family: 'lucida_granderegular';
+       src: url('font/lucida_grande-webfont.eot');
+       src: url('font/lucida_grande-webfont.eot?#iefix') format('embedded-opentype'),
+            url('font/lucida_grande-webfont.woff') format('woff'),
+            url('font/lucida_grande-webfont.ttf') format('truetype'),
+            url('font/lucida_grande-webfont.svg#lucida_granderegular') format('svg');
+       font-weight: normal;
+       font-style: normal;
+
+   }
+
+   /** General Styles **/
+
+   /* main menu styles */
+   ul.mainMenu {margin:0; float:left;}
+   ul.mainMenu li {list-style:none; float:left; margin:0 8px 0 0; background: transparent url(../img/divid-menu.png) no-repeat right 56%; padding-right:8px; }
+   ul.mainMenu li a {color:#fff; font-size:20px; text-transform: uppercase; text-shadow:2px 2px 1px #396678; font-family: 'BreeSerifRegular'; line-height:60px; display:block; padding:0 10px 0 5px;}
+   ul.mainMenu li:last-child {background:none;}
+   ul.mainMenu .addTxt {display:none;}
+
+   ul.mainMenu li.subMenu {position:relative;}
+   ul.mainMenu ul {z-index:10; display:none; position:absolute; top:50px; left:-5px; margin:0; background: transparent url(../img/sub-menu-bg.png) repeat; border:0; padding:10px 0 10px 5px; border-radius:5px; box-shadow:0 5px 14px 0 #8d8c8d;}
+   ul.mainMenu ul li {float:none; background:none; white-space:nowrap; margin:2px 0;}
+   ul.mainMenu ul a { color:#fff; font-size:18px; text-transform: uppercase; text-shadow:2px 2px 1px #396678; font-family: 'BreeSerifRegular'; line-height:27px; margin:1px 0; display:inline-block; }
+   ul.mainMenu ul li:hover a {background:#2f5e70; border-radius:5px;}
+
+   .login {position:relative; float:right; margin-right:16px;}
+   .login a.bookTable {width:45px; padding:23px 10px 0 18px; text-align:center; height:73px; background: transparent url(../img/book-table.png) no-repeat top center; position:absolute; left:-56px; top:-11px; font-family: 'LeagueGothicRegular'; font-size:20px; text-transform: uppercase; display:block; text-shadow:0 1px 2px #050305; color:#fff;}
+   .login ul {}
+   .login ul li {list-style:none; float:left; margin:0 5px; background: transparent url(../img/divid-menu.png) no-repeat left 56%; padding-left:12px; }
+   .login ul li a {color:#fff; font-size:17px; text-transform: uppercase; text-shadow:2px 2px 1px #396678; font-family: 'BreeSerifRegular'; line-height:30px; display:block; padding:0 10px; margin:15px 0; background:#2f5e70; border-radius:5px;}
+   .login ul li:first-child {background:none;}
+   /* main menu end */
+
+
+   /* social icons */
+
+   /* boxes */
+
+   .box1 {margin-top:30px;}
+   .box1 .top {height:36px; background: transparent url(../img/box1-top.png) no-repeat top center; }
+   .box1 .mid {background: transparent url(../img/box1-mid.png) repeat-y 50% 0; min-height:72px;}
+   .box1 .btm {height:36px; background: transparent url(../img/box1-btm.png) no-repeat top center;}
+
+   /* headers styles */
+
+   .hdr1 {background: transparent url(../img/hdr1-ribbon.png) no-repeat top center; height:67px; text-align:center; font-family: 'BitterBold'; font-size:21px; line-height:44px; margin:5px 0; color:#fff;}
+   .hdr2 {background: transparent; height:29px; text-align:center; font-family: 'BitterBold'; font-size:20px; line-height:22px;  margin:20px 0; color:#477d93}
+   .hdr2 span.lft {background: transparent url(../img/orm1-left.png) no-repeat top center; width:56px; padding-right:10px; height:29px; display:inline-block;}
+   .hdr2 span.rt {background: transparent url(../img/orm1-rt.png) no-repeat top center; width:56px; height:29px; padding-left:10px; display:inline-block;}
+   .lft:before, .rt:before {content: "\00a0";}
+
+   /* sliders */
+
+   /* slider1 begin */
+
+   /* slider2 begin */
+
+   /* slider3 begin */
+
+   /* slider4 begin */
+
+   /* slider5 begin */
+
+   /* slider6 begin */
+
+   /* slider7 begin */
+
+   /* slider8 begin */
+
+   /* contact */
+
+   /* book a table box */
+
+   .box9 {margin-top:35px; display:none;}
+   .box9 .top {height:36px; background: transparent url(../img/box9-bg-top.png) no-repeat top center; }
+   .box9 .mid {background: transparent url(../img/box9-bg-mid.png) repeat-y 50% 0; min-height:72px;}
+   .box9 .btm {height:36px; background: transparent url(../img/box9-bg-btm.png) no-repeat top center; position:relative; top:-4px;}
+
+   /* blog comments */
+
+   /* footer */
+
+   /* book a table box for resolution &lt; 959px and page without sidebar */
+
+   .ipad-box9 {background: transparent url(../img/ipad-box9-bg.jpg); padding-bottom:10px;}
+   .ipad-box9 label {display:inline-block; font-family: 'lucida_grandebold'; font-size:12px; color:#fff;}
+   .ipad-box9 h4 {color:#fff; font-size:16px; font-family: 'BitterBold'; margin:0; padding:20px 0; text-align:center; text-rendering:auto; font-weight:normal;}
+   .ipad-box9 .mCont {width:500px; margin:0 auto; padding:0;}
+
+   /* hide elements from resolution > 959px */
+   .iphoneHeadline {display:none;}
+   .topBar {display:none;}
+   .ipad-box9 {display:none;}
+
+
+   /** media queries, adjustments **/
+
+   @media (max-width: 959px) {
+    // css for viewport between 729 and 959px
+   }
+
+
+   @media (max-width:729px) {
+       // css for viewport &lt; 729px
+   }
+
+
+   </pre>
+    </div>
+</section>
+<section id="java_script">
+<h3>Java Script</h3>
+<hr class="notop">
+<p>
+    This theme uses following Javascript files:</p>
+
+<ol>
+    <li>Bootstrap framework (powerful front-end framework for faster and easier web development)</li>
+    <li>jQuery 1.8 (A fast javascript library that simplifies how to traverse HTML documents, handle events, perform animations.)</li>
+    <li>Arctext.js (A jQuery plugin for curved text)</li>
+    <li>jQuery Nivo Slider plugin (Most popular jQuery slider)</li>
+    <li>AnythingSlider (Content slider, css-tricks.com)</li>
+    <li>jqueryrotate (jQuery plugin that rotates objects by any angle)</li>
+    <li>Lightbox v2.51 (Simple, unobtrusive script used to overlay images on top of the current page)</li>
+</ol>
+
+<p>We included all js files at the bottom, just before &lt;/body> tag to speed up page loading</p>
+
+<pre class="brush: html">
+        &lt;script src="js/jquery.js">&lt;/script>
+        &lt;script src="bootstrap/js/bootstrap.min.js">&lt;/script>
+        &lt;script src="js/jquery.nivo.slider.pack.js">&lt;/script>
+        &lt;script src="js/jquery.anythingslider.min.js">&lt;/script>
+        &lt;script src="js/jquery.arctext.js">&lt;/script>
+        &lt;script src="js/jQueryRotateCompressed.2.2.js">&lt;/script>
+        &lt;script src="js/lightbox.js">&lt;/script>
+
+</pre>
+
+<div class="subChapter">
+
+<hr class="half">
+<h5>Nivo Slider</h5>
+
+<p class="docs">Documentation: <a href="http://nivo.dev7studios.com/">plugin homepage</a></p>
+
+      <pre class="brush: js">
+      $(document).ready(function () {
+      // slider1 init
+       $('#slider1Nivo').nivoSlider({
+           effect:'random',
+           pauseTime:8000,
+           captionEasing:'linear',
+           slices:15, // For slice animations
+           boxCols:8, // For box animations
+           boxRows:4, // For box animations
+           animSpeed:500, // Slide transition speed
+           startSlide:0, // Set starting Slide (0 index)
+           directionNav:true, // Next & Prev navigation
+           controlNav:true, // 1,2,3... navigation
+           controlNavThumbs:false, // Use thumbnails for Control Nav
+           pauseOnHover:true, // Stop animation while hovering
+           manualAdvance:false, // Force manual transitions
+           prevText:'Prev', // Prev directionNav text
+           nextText:'Next', // Next directionNav text
+           randomStart:false, // Start on a random slide
+           beforeChange:function () {
+           }, // Triggers before a slide transition
+           afterChange:function () {
+           }, // Triggers after a slide transition
+           slideshowEnd:function () {
+           }, // Triggers after all slides have been shown
+           lastSlide:function () {
+           }, // Triggers when last slide is shown
+           afterLoad:function () {
+           } // Triggers when slider has loaded
+
+       });
+      });
+      </pre>
+
+
+<hr class="half">
+<h5>jQuery AnythingSlider</h5>
+
+<p class="docs">Documentation: <a href="https://github.com/CSS-Tricks/AnythingSlider">plugin homepage</a></p>
+
+           <pre class="brush: js">
+           $(document).ready(function () {
+           <!-- AnythingSlider initialization -->
+
+           var $s = $('#anythingSlider4'),
+               nav = $('#externalNav a'),
+               updateNav = function(page){
+                   nav
+                       .removeClass('cur')
+                       .eq(page).addClass('cur');
+               };
+
+           var allpages = $s.find('li').size();
+           $('.pagesNr .nr2').append(allpages);
+
+           $s.anythingSlider({
+               // If true, builds a list of anchor links to link to each panel
+               autoPlay: true,
+               expand: true,
+               pauseOnHover: true,
+               hashTags: true,
+               buildNavigation: false,
+               buildStartStop: false,
+               delay: 48000,
+
+               onInitialized: function(e, slider) {
+                   updateNav(slider.currentPage-1);
+                   $('.pagesNr .nr1').empty().append(slider.targetPage);
+               },
+               // Callback before slide animates
+               onSlideBegin: function(e, slider) {
+                   updateNav(slider.targetPage-1);
+                   $('.pagesNr .nr1').empty().append(slider.targetPage);
+               }
+           });
+
+           // set up external links
+           $('#externalNav a').click(function(){
+               // get slide number (ignore the #)
+               var slide = $(this).attr('href').substring(1),
+                   // get AnythingSlider data object
+                   slider = $s.data('AnythingSlider');
+               if (slide === "play") {
+                   // toggle slideshow
+                   slider.startStop( !slider.playing );
+                   // change link text
+                   $('a.play').text( slider.playing ? 'Pause' : 'Play' );
+               } else {
+                   // go to selected slide
+                   $s.anythingSlider(slide);
+               }
+               // prevent link from changing the hash
+               return false;
+           });
+
+
+           });
+           </pre>
+
+<hr class="half">
+<h5>Arctext.js</h5>
+
+<p class="docs">Documentation: <a href="http://tympanus.net/codrops/2012/01/24/arctext-js-curving-text-with-css3-and-jquery/">plugin homepage</a></p>
+
+
+<p>Use it to make curved headline text</p>
+
+        <pre class="brush: js">
+        // init curved header
+        $('.curved').arctext({radius:250, rotate:true, dir:1});
+
+        </pre>
+
+<hr class="half">
+<h5>Show form "Book a table" (on link click)</h5>
+
+        <pre class="brush: js">
+        $(document).ready(function () {
+            // show book a table on click
+            $(".box9").hide();
+
+            $("#bkTable").click(function(){
+                $(".box9").fadeToggle();
+
+                return false;
+            })
+
+            // slide and show iphone book a table box on click
+             $(".ipad-box9").hide();
+
+            $(".topBar .bookTable").click(function(){
+                $(".ipad-box9").slideToggle();
+                return false;
+            })
+        });
+        </pre>
+
+<hr class="half">
+<h5>Form validation - with e-mail validation</h5>
+
+<p>It adds "error" class to a field when it's empty and prevents from form submition. <br>
+    Validation is implemented in "Contact Form" and "Book a table" form.</p>
+
+        <pre class="brush: js">
+    $(document).ready(function () {
+        /*** validate form ***/
+        $('form#contactForm input, textarea').blur(function () {
+            var $e = $(this);
+            var error = false;
+            if ($e.val() == '') {
+                error = true;
+            }
+            if ($e.data('type') == 'email') {
+                var reg = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/;
+                var email = $e.val().replace('#', '@');
+
+                if (!reg.test(email)) {
+                    error = true;
+                }
+            }
+
+            error ? $e.addClass('error') : $e.removeClass('error');
+
+            return true;
+
+        });
+
+        $('form#contactForm').submit(function () {
+            $(this).find('input, textarea').trigger('blur');
+            var errors = $(this).find('.error').length;
+
+            /*** no errors - submit form ***/
+            return errors == 0;
+        });
+    });
+        </pre>
+
+<hr class="half">
+<h5>jqueryrotate</h5>
+
+<p class="docs">Documentation: <a href="http://code.google.com/p/jqueryrotate/">plugin homepage</a></p>
+
+
+<p>We use it to rotate text placed in left slider corner (2_home2.html)</p>
+
+     <pre class="brush: js">
+         $(document).ready(function () {
+             // rotate text
+             $(".slider6 .ribTxt span").rotate({angle:-45});
+         });
+     </pre>
+
+<hr class="half">
+<h5>Lightbox</h5>
+
+<p class="docs">Documentation: <a href="http://lokeshdhakar.com/projects/lightbox2/">plugin homepage</a></p>
+
+<p>Plugin also requires to include lightbox.css and lightbox.js.<br>
+    HTML markup:</p>
+
+     <pre class="brush: html">
+         &lt;a href="img/content/dish17.jpg" data-rel="lightbox" >&lt;img src="img/content/dish8.jpg" alt="">&lt;/a>
+     </pre>
+
+<p><strong>and js:</strong></p>
+
+    <pre class="brush: js">
+        $(document).ready(function () {
+            // lightbox assign validation
+            $('a[data-rel]').each(function() {
+                $(this).attr('rel', $(this).data('rel'));
+            });
+        });
+    </pre>
+
+<hr class="half">
+<h5>Show submenu on click.</h5>
+
+<p>We decided that submenu should display on section click. It works on ipad and iphone too.</p>
+
+
+      <pre class="brush: js">
+  $(document).ready(function () {
+      // show submenu on click
+
+        $("ul.mainMenu li.subMenu ul").hide();
+
+        $("ul.mainMenu li.subMenu > a").click(function () {
+            $("ul.mainMenu li.subMenu ul").hide();
+            $(this).next('ul').toggle();
+
+            return false;
+          });
+
+        // hide submenu when click outside menu container
+        $("body").click(function() {
+            $("ul.mainMenu li.subMenu ul").hide();
+        });
+  });
+      </pre>
+
+</div>
+
+
+</section>
+<section id="typography">
+    <h3>Typography</h3>
+    <hr class="notop">
+    <p>
+        This theme is powered by a unique setup of fresh and stylish fonts.&nbsp;<br>
+        These are the used fonts and sources where to get them.</p>
+
+    <p>
+        <em>Logo:</em>&nbsp;<strong style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: 700; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; ">CocktailShaker</strong>&nbsp;(http://www.fontpalace.com/font-download/Cocktail+Shaker/)<br>
+        <em>Logo
+            Subline:</em>&nbsp;<strong style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: 700; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; ">Leckerli One Regular</strong>&nbsp;(http://www.google.com/webfonts/specimen/Leckerli+One)<br>
+        <em>Headlines &amp;
+            Sublines:</em>&nbsp;<strong style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: 700; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; ">Leckerli One Regular, Patua One Regular</strong>&nbsp;(http://www.google.com/webfonts/specimen/Leckerli+One, http://www.fontsquirrel.com/fonts/patua-one)<br>
+        <em>Copy
+            Text:&nbsp;</em><strong style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: 700; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; ">Lucida
+        Grande</strong>&nbsp;(System Font)</p>
+
+    <p>
+        &nbsp;</p>
+
+    <p>
+        If you dont have or dont like the used fonts from this theme, simply head over to:</p>
+
+    <p>
+        http://www.dafont.com/<br>
+        http://www.fontsquirrel.com/<br>
+        http://www.free-fonts.com/</p>
+
+    <p>
+        and find youre favorite font.&nbsp;</p>
+
+    <p>
+        Some suggestions:</p>
+
+    <p>
+        This free fonts also look awesome on this theme:</p>
+
+    <p>
+        Myndraine<br>
+        <a href="http://www.dafont.com/myndraine.font" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; ">http://www.dafont.com/myndraine.font</a>
+    </p>
+
+    <p>
+        Museo<br>
+        <a href="http://www.exljbris.com/museo.html" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; ">http://www.exljbris.com/museo.html</a>
+    </p>
+
+    <p>
+        Quicksand<br>
+        <a href="http://www.fontsquirrel.com/fonts/Quicksand" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; ">http://www.fontsquirrel.com/fonts/Quicksand</a>
+    </p>
+
+    <p>
+        Megapolis<br>
+        <a href="http://www.smeltery.net/fonts/megalopolis-extra" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; ">http://www.smeltery.net/fonts/megalopolis-extra</a>
+    </p>
+
+    <p>
+        Sansation<br>
+        <a href="http://www.dafont.com/sansation.font" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; ">http://www.dafont.com/sansation.font</a>
+    </p>
+
+    <p>
+        Milso<br>
+        <a href="http://martennettelbladt.se/miso/" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; ">http://martennettelbladt.se/miso/</a>
+    </p>
+
+    <p>
+        Seaside Resort<br>
+        <a href="http://www.urbanfonts.com/fonts/Seaside_Resort.htm" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; ">http://www.urbanfonts.com/fonts/Seaside_Resort.htm</a>
+    </p>
+</section>
+<section id="psd_files">
+    <h3>PSD Files</h3>
+    <hr class="notop">
+    <p>
+        &nbsp;</p>
+
+    <div style="font-family: Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: rgb(255, 255, 255); ">
+        <p>
+            We have &nbsp;included three psd documents with this theme:</p>
+
+        <p style="margin-top: 18px; margin-right: 0px; margin-bottom: 18px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56); -webkit-text-size-adjust: none; ">
+            01. Cupcakeheaven Desktop version&nbsp;<br>
+            02. Cupcakeheaven iPad version<br>
+            03. Cupcakeheaven iPhone version</p>
+
+        <p style="margin-top: 18px; margin-right: 0px; margin-bottom: 18px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56); -webkit-text-size-adjust: none; ">
+            This PSD Document is set up by so called layer compositions. To have this smoothly running you need at least Photoshop version CS2. Simply open up the Photoshop Document and find the layer comps palette in
+            the window section from the above main menu. Now you can simply switch on or off the particulat section you would like to edit.</p>
+        <ol style="padding-right: 0px; margin-top: 18px; margin-right: 0px; margin-bottom: 18px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56); -webkit-text-size-adjust: none; ">
+            <li style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 36px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; list-style-type: decimal; list-style-position: initial; list-style-image: initial; ">
+                cupcakeheaven_desktop_allscreens.psd
+            </li>
+            <li style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 36px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; list-style-type: decimal; list-style-position: initial; list-style-image: initial; ">
+                cupcakeheaven_ipad_allscreens.psd
+            </li>
+            <li style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 36px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; list-style-type: decimal; list-style-position: initial; list-style-image: initial; ">
+                cupcakeheaven_iphone_allscreens.psd
+            </li>
+        </ol>
+        <p style="margin-top: 18px; margin-right: 0px; margin-bottom: 18px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56); -webkit-text-size-adjust: none; ">
+            If you&#39;d like to change the elements for pages, just open necessary pasd file in Photoshop, make the adjustments, and then save slices in their format (i.e. .gif, .jpg, .png) into folder with images of
+            this theme.(only chose &#39;File&#39;-&gt;&#39;Save For Web&#39; option in Photoshop) Do the same for all .psd files if needed.</p>
+
+        <p style="margin-top: 18px; margin-right: 0px; margin-bottom: 18px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56); -webkit-text-size-adjust: none; ">
+            All versions contain presliced elemts in its own folder.&nbsp;</p>
+    </div>
+</section>
+<section id="contact_form"><h3>Contact Form</h3>
+    <hr class="notop">
+
+    <p>Template comes with ready to use Contact Form and Book a Table Form. Complete working example is available on contact page site.
+        Once you are sure that it suits your need, just copy form html to your other sites.<br>
+        Before you start using it, please make sure your server:</p>
+    <ul>
+        <li>uses <strong>PHP 5.2+</strong></li>
+        <li>your web server (like Apache) is configured to listen on directory <strong>form</strong></li>
+    </ul>
+    <h5>Configuration</h5>
+
+    <p>File js/contact-form.js contains javascript responsible for validating and sending messages. You can customize it's behaviour by setting: </p>
+    <ul>
+        <li><strong>showErrors</strong> - should form display validation error messages? (default: true)</li>
+        <li><strong>sendingMessage</strong> - once submit button is clicked, it's text will be changed to this value (default: Sending...)</li>
+        <li><strong>debug</strong> - displays debug messages when problems occur. Please make sure that also in send.php $debug = true.</li>
+    </ul>
+
+    <p>Inside <strong>form</strong> directory you will find:</p>
+    <ul>
+        <li>
+            <strong>config.php</strong> - Mail configuration which MUST be setup up before sending emails, please make sure that:
+            <ul>
+                <li>hostname, username and password are properly entered</li>
+                <li>in case of problems in sending messages, use <strong>$debug = true</strong> variable to view any email errors</li>
+            </ul>
+        </li>
+        <li><strong>main.html</strong> - this template will be used to render email messsage. Please note that special placeholders are available in this file surrounded with {XXX} like {name}.
+            This placeholders will be subsituted will real content received from contact form.
+        </li>
+        <li>
+            <strong>table.html</strong> - similar to main.html template but used for "Book a Table" Form
+        </li>
+        <li>
+            <strong>send.php</strong> - this is where mail is actually being send for contact form
+        </li>
+        <li>
+            <strong>table.php</strong> - this is where mail is actually being send for book a table
+        </li>
+    </ul>
+    <p>Please make sure that <strong>debug variables are set to false on production</strong>!</p>
+</section>
+<section id="sources_credits">
+    <h3>Sources & Credits</h3>
+    <hr class="notop">
+    <p>
+        The following sources and files have been used to build up this theme</p>
+    <ul style="margin-top: 18px; margin-right: 0px; margin-bottom: 18px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56); -webkit-text-size-adjust: none; ">
+        <li style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 36px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; list-style-type: square; list-style-position: initial; list-style-image: initial; ">
+            Foodimages &amp; Fotos &nbsp;purchased
+            from&nbsp;<a href="http://www.bigstockphoto.com/" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; " target="_blank">i</a>StockPhoto
+            and also from my own photographs
+        </li>
+        <li style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 36px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; list-style-type: square; list-style-position: initial; list-style-image: initial; ">
+            Twitter Bootstrap - <a href="http://twitter.github.com/bootstrap">http://twitter.github.com/bootstrap/</a>
+        </li>
+        <li style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 36px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; list-style-type: square; list-style-position: initial; list-style-image: initial; ">
+            jQuery -  <a href="http://www.jquery.com">http://www.jquery.com</a>
+        </li>
+
+    </ul>
+    <hr style="display: block; height: 0px; line-height: 0px; border-right-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(235, 235, 235); border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); margin-top: 16px; margin-right: 0px; margin-bottom: 16px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif; -webkit-text-size-adjust: none; ">
+    <p style="margin-top: 18px; margin-right: 0px; margin-bottom: 18px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56); -webkit-text-size-adjust: none; ">
+        Once again, thank you so much for purchasing this theme. As we sat the beginning, I&#39;d be glad to help you if you have any questions relating to this theme. &nbsp;If you have a more general question relating
+        to the themes on ThemeForest, you might consider visiting the forums and asking your question in the &quot;Item Discussion&quot; section.</p>
+
+    <p style="margin-top: 18px; margin-right: 0px; margin-bottom: 18px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: inherit; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56); -webkit-text-size-adjust: none; ">
+        <strong style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; outline-width: 0px; outline-style: initial; outline-color: initial; font-weight: 700; font-style: inherit; font-size: 12px; font-family: inherit; vertical-align: baseline; ">createIT</strong></p>
+</section>
+<section id="how_to">
+<h3>How To</h3>
+<hr class="notop">
+<p>
+    This section is maybe the most interesting section from this documentation, because we will show you how to personalize your own theme. We assume that you have a basic HTML and CSS knowledge. If you run into any kind of trouble please let us know from &nbsp;the profile contact page from this site:&nbsp;http://themeforest.net/user/createit-pl</p>
+
+<div class="subChapter">
+<h5>General customizations</h5>
+
+<ol class="faq">
+    <li><strong>How to embed your own logo?</strong><br>
+        - To change the logo simply replace this file: <strong>img/logo.png</strong>. Make sure that your logo have similar size (width and height) and transparent background.
+    </li>
+
+    <li><strong>How to add your social media links to the buttons?</strong><br>
+        - To add your social media links, simply change this line of code on all pages:
+                <pre class="brush: html">
+                &lt;ul class="social">
+                    &lt;li>&lt;a href="#" class="fb">Facebook&lt;/a>&lt;/li>
+                    &lt;li>&lt;a href="#" class="twit">Twitter&lt;/a>&lt;/li>
+                    &lt;li>&lt;a href="#" class="rss">Rss&lt;/a>&lt;/li>
+                    &lt;li>&lt;a href="#" class="mail">E-mail&lt;/a>&lt;/li>
+                &lt;/ul>
+                </pre>
+    </li>
+
+    <li><strong>How to change the default main navigation and subnavigation names?</strong><br>
+        - To adapt the main navigation to your needs, simply locate  <strong>&lt;ul class="mainMenu"></strong> and make your edits.
+    </li>
+
+    <li><strong>How to change text on the book a table flag?</strong><br>
+        Just edit:  <strong>&lt;a href="#" class="bookTable">Book a table&lt;/a></strong>
+
+    </li>
+
+    <li><strong>How to embed a different google font?</strong><br>
+        More info: <a href="https://developers.google.com/webfonts/docs/getting_started">here</a>
+
+
+    </li>
+</ol>
+
+<h5>Home Customizations:</h5>
+
+<ol class="faq">
+
+    <li><strong>How to change or add images to the mainslider?</strong><br>
+        - To change the images from the slider, simply edit this html code:
+                <pre class="brush: html">
+                &lt;div class="slider-wrapper">
+                    &lt;div id="slider1Nivo" class="nivoSlider">
+                        &lt;div class="slider1Frame">
+                            &lt;img src="img/content/slider_small_01.jpg" alt="">
+                        &lt;/div>
+                        &lt;div class="slider1Frame">
+                            &lt;img src="img/content/slider_small_02.jpg" alt="">
+                        &lt;/div>
+                        &lt;div class="slider1Frame">
+                            &lt;img src="img/content/slider_small_03.jpg" alt="">
+                        &lt;/div>
+                        &lt;div class="slider1Frame">
+                            &lt;img src="img/content/slider_small_04.jpg" alt="">
+                        &lt;/div>
+                    &lt;/div>
+                &lt;/div>
+                </pre>
+    </li>
+
+    <li>
+        <strong>How to add dishes to the main dish section </strong><br>
+        One slide is between &lt;li>&lt;/li> tags. Simply add new li block (like one below):
+
+                <pre class="brush: html">
+                &lt;li>
+                    &lt;div class="setSlider2">
+                        &lt;div class="third">
+                            &lt;div class="mrgThird">
+                                &lt;span class="tx1">Cupcake No.2&lt;/span>
+
+                                &lt;p>&lt;strong>There are many&lt;/strong> variations of passages of Lorem Ipsum available, but the majority.&lt;/p>
+                                &lt;span class="tx2">only 7.99 $&lt;/span>
+
+                                &lt;div class="shadd">
+                                    &lt;a href="img/content/dish17.jpg" data-rel="lightbox">&lt;img src="img/content/dish4.jpg" alt="">&lt;/a>
+                                &lt;/div>
+                            &lt;/div>
+                        &lt;/div>
+                        &lt;div class="third">
+                            &lt;div class="mrgThird">
+                                &lt;span class="tx1">Cupcake No.2&lt;/span>
+
+                                &lt;p>&lt;strong>There are many&lt;/strong> variations of passages of Lorem Ipsum available, but the majority.&lt;/p>
+                                &lt;span class="tx2">only 7.99 $&lt;/span>
+
+                                &lt;div class="shadd">
+                                    &lt;a href="img/content/dish17.jpg" data-rel="lightbox">&lt;img src="img/content/dish5.jpg" alt="">&lt;/a>
+                                &lt;/div>
+                            &lt;/div>
+                        &lt;/div>
+                        &lt;div class="third">
+                            &lt;div class="mrgThird">
+                                &lt;span class="tx1">Cupcake No.2&lt;/span>
+
+                                &lt;p>&lt;strong>There are many&lt;/strong> variations of passages of Lorem Ipsum available, but the majority.&lt;/p>
+                                &lt;span class="tx2">only 7.99 $&lt;/span>
+
+                                &lt;div class="shadd">
+                                    &lt;a href="img/content/dish17.jpg" data-rel="lightbox">&lt;img src="img/content/dish6.jpg" alt="">&lt;/a>
+                                &lt;/div>
+                            &lt;/div>
+                        &lt;/div>
+                        &lt;div class="clearfix">&lt;/div>
+                    &lt;/div>
+                &lt;/li>
+                </pre>
+
+    </li>
+
+    <li><strong>How to show your own map with your location inside footer section?</strong><br>
+        You must paste iframe code from Google Maps Page with your location into div: <strong>&lt;div class="ftMap">&lt;/div></strong>. Remember to leave this parameters of iframe: width="151" height="117".<br>
+        More info: <a href="http://designshack.net/articles/html/embedding-google-maps-into-a-web-page-a-beginners-guide/">here</a>
+
+    </li>
+</ol>
+
+<h5>About customizations:</h5>
+<ol class="faq">
+    <li><strong>How to add your team photos and Names to the Team section?</strong><br>
+        - To change the default team members, please edit this lines of code:
+
+                <pre class="brush: html">
+                &lt;div class="mrgThird">
+                    &lt;span class="tx1">Chef&lt;/span>
+
+                    &lt;div class="shadd">
+                        &lt;img src="img/content/team1-photo.jpg" alt="">
+                    &lt;/div>
+                    &lt;span class="tx2">Clive Brooks&lt;/span>
+                &lt;/div>
+                </pre>
+    </li>
+</ol>
+
+<h5> Menucard customizations:</h5>
+
+<ol class="faq">
+
+    <li>With this theme you will get two versions of the menucard. One page book and full width book.<br>
+        Simply use the one that fits your needs more.
+    </li>
+
+    <li>In order to change the filter buttons, simply change the names in the HTML document.<br>
+
+                <pre class="brush: html">
+                &lt;div id="externalNav">
+                     &lt;a href="#1">Starters&lt;/a>
+                     &lt;a href="#2">Main dish&lt;/a>
+                     &lt;a href="#3">Dessert&lt;/a>
+                     &lt;a href="#4">Drinks&lt;/a>
+                &lt;/div>
+
+                </pre>
+    </li>
+
+    <li>To change the names for the menucard pages, simply locate this code and change name.
+                <pre class="brush: html">
+                    &lt;h3 class="hdr2">&lt;span class="lft">&lt;/span>Starters&lt;span class="rt">&lt;/span>&lt;/h3>
+                </pre>
+    </li>
+
+    <li>To change the default images from the menucard, simply locate this line of code and change the names, also paste your new images:
+                <pre class="brush: html">
+                    &lt;div class="cn1">
+                        &lt;a href="img/content/dish17.jpg" data-rel="lightbox" >&lt;img src="img/content/dish7.jpg" alt="">&lt;/a>
+                    &lt;/div>
+                    &lt;div class="cn2">
+                        &lt;span class="tx1">Cupcake 1&lt;/span>
+                        &lt;p>&lt;strong>There are many&lt;/strong> variations of passages of Lorem Ipsum available, but the majority.&lt;/p>
+                    &lt;/div>
+                    &lt;div class="cn3">
+                        &lt;span class="tx2">only 7.99 $&lt;/span>
+                    &lt;/div>
+                    &lt;div class="clearfix">&lt;/div>
+                    &lt;hr class="divider3">
+                </pre>
+
+    </li>
+
+    <li>To get the clickable image effect (lightbox) simply add <strong>data-rel="lightbox"</strong> to image href link:
+                <pre class="brush: html">
+                    &lt;a href="img/content/dish17.jpg" data-rel="lightbox" >&lt;img src="img/content/dish7.jpg" alt="">&lt;/a>
+                </pre>
+        <p>Remember to include js code:</p>
+                <pre class="brush: js">
+                    $(document).ready(function () {
+                        // lightbox assign validation
+                        $('a[data-rel]').each(function() {
+                            $(this).attr('rel', $(this).data('rel'));
+                        });
+                    });
+                </pre>
+    </li>
+
+
+</ol>
+<h5> Gallery customizations:</h5>
+
+<ol class="faq">
+    <li>To change the gallery image please edit this html :
+
+            <pre class="brush: html">
+            &lt;div class="shadd">
+                &lt;img src="img/content/gallery1.jpg" alt="">
+            &lt;/div>
+            </pre>
+    </li>
+
+    <li>To change the gallery sections please edit this html :
+
+            <pre class="brush: html">
+            &lt;div id="externalNav">
+                &lt;a href="#1">Gallery 1&lt;/a>
+                &lt;a href="#2">Gallery 2&lt;/a>
+                &lt;a href="#3">Gallery 3&lt;/a>
+                &lt;a href="#4">Gallery 4&lt;/a>
+            &lt;/div>
+            </pre>
+    </li>
+
+
+</ol>
+
+<h5> Blog customizations:</h5>
+
+<ol class="faq">
+
+    <li>Due to the fact that this is an HTML Document and no Wordpress or other PHP driven webtheme, the whole blog section is static.<br>
+        In order to use a real blog system we ask you for a little patience for the upcoming wordpress version.<br>
+        We are really working hard on this and hope to bring it to you very soon.
+    </li>
+
+    <li>To show your own images, or adapt "read more" simply edit this html code:
+
+                <pre class="brush: html">
+                &lt;div class="blogContent">
+                    &lt;div class="blogTitle">
+                        &lt;h2>Latest from the Blog_01&lt;/h2>
+                        &lt;span class="category">posted in // food, customer&lt;/span>
+
+                        &lt;div class="clearfix">&lt;/div>
+                        &lt;div class="dates">
+                            &lt;span class="data1">17.04.12&lt;/span>
+                            &lt;span class="data2">22&lt;/span>
+                        &lt;/div>
+                    &lt;/div>
+
+                    &lt;img src="img/content/post2-photo.jpg" alt="">
+
+                    &lt;p>There are many variations of passages of Lorem Ipsum available,
+                        but the majority have suffered alteration in some form, by injected
+                        humour, or randomised words which don't look even slightly believable.&lt;/p>
+
+                    &lt;a href="8_single.html">read more&lt;/a>
+
+                &lt;hr class="divider4">
+                &lt;/div>
+                </pre>
+
+    </li>
+
+
+</ol>
+
+
+<h5>Contact customizations:</h5>
+
+<ol class="faq">
+    <li>Contact form includes javascript validation. Empty fields and wrong e-mail will be marked as errors.<br>
+        We don't provide php mail script. <br>
+        To adapt form fields to your needs, simply locate this lines of code:
+
+   <pre class="brush: html">
+   &lt;form id="contactForm" >
+       &lt;fieldset>
+           &lt;label>Name&lt;/label>
+           &lt;input type="text" >
+           &lt;label>E-mail&lt;/label>
+           &lt;input type="text" data-type="email">
+           &lt;label>Website&lt;/label>
+           &lt;input type="text" >
+           &lt;label>Your Message&lt;/label>
+          &lt;textarea>&lt;/textarea>
+       &lt;/fieldset>
+       &lt;input type="submit" value="submit" id="sendIt">
+   &lt;/form>
+   </pre>
+
+    </li>
+
+
+</ol>
+</div>
+</section>
+
+</div>
+
+<script type="text/javascript" src="syntaxh/js/shCore.js"></script>
+<script type="text/javascript" src="syntaxh/js/shBrushJScript.js"></script>
+<script type="text/javascript" src="syntaxh/js/shBrushCss.js"></script>
+<script type="text/javascript" src="syntaxh/js/shBrushXml.js"></script>
+
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+</body>
+</html>
